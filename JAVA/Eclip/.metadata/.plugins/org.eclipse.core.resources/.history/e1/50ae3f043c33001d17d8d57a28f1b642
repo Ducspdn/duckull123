@@ -1,0 +1,36 @@
+import java.util.Scanner ;
+class Math{
+	public static double PI = 3.14 ;
+	
+	public static int add(int x, int y)
+	{
+		return x + y ;
+	}
+	public static int subtract(int x , int y)
+	{
+		return x - y ;
+	}
+	public static int min(int x , int y)
+	{
+		if(x<y)
+		{
+			return x ;
+		}
+		return y ;
+		
+	}
+	public static int max(int x , int y)
+	{
+		if(x>y)
+		{
+			return x ;
+		}
+		return y ;
+	}
+}
+public class enTry {
+      public static void main(String[] args)
+      {
+    	  System.out.println(Math.max(5, 7));
+      }
+}

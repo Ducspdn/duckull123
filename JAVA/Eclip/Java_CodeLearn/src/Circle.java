@@ -1,0 +1,29 @@
+import  ; ;
+class circle1 {
+	private final double pi = 3.14 ;
+	private double radius ;
+	public circle1(double radius)
+	{
+		this.radius = radius ;
+	}
+	public double getArea()
+	{
+		return Math.pow(radius, 2) * pi ;
+	}
+	public double getCirumference()
+	{
+		return 2 * radius * pi ;
+	}
+	void display()
+	{
+		System.out.println("GetArea :" + getArea());
+		System.out.println("getCirumference : "+getCirumference());
+	}
+}
+public class Circle {
+    public static void main(String[] args)
+    {
+    	circle1 sc = new circle1 (7) ;
+    	sc.display();
+    }
+}
